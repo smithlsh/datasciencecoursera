@@ -1,0 +1,1 @@
+In this directory there is a file called analysis.R. To compute a "tidied" data describing the data collected from the accelerometers from the Samsung Galaxy S smartphone, simply source analysis.R: source("analysis.R") and then type the command Run() at the prompt.
