@@ -27,50 +27,20 @@ motion, corresponding to the time derivatives of the bodily motion which
 also was in the X text files. The data in these X text files are arranged
 in columns.  The labels corresponding to these columns are in the
 features.txt file and the specific columns we were interested in are:
-
-Label					Description  Column Number
-tBodyAcc-mean()-X      Mean acceleration of body       1
-  			       in the X direction
-
-tBodyAcc-mean()-Y      Mean acceleration of body       2
-  			       in the Y direction
-
-tBodyAcc-mean()-Z      Mean acceleration of body       3
-  			       in the Z direction
-
-
-tGravityAcc-mean()-X   Mean acceleration from         41
-                       gravity in the X direction
-
-tGravityAcc-mean()-Y   Mean acceleration from         42
-                       gravity in the Y direction
-
-tGravityAcc-mean()-Z   Mean acceleration from         43
-                       gravity in the Z direction     
-
-
-tBodyAccJerk-mean()-X  Mean Jerk of Body in the       81
-                       X direction
-
-tBodyAccJerk-mean()-Y  Mean Jerk of Body in the       82
-                       Y direction
-
-
-tBodyAccJerk-mean()-Z  Mean Jerk of Body in the       83
-                       Z direction
-
-tBodyGyro-mean()-X     Mean Gyroscopic velocity about 121
-                       the X axis
-
-tBodyGyro-mean()-Y     Mean Gyroscopic velocity about 122
-                       the Y axis
-
-tBodyGyro-mean()-Z     Mean Gyroscopic velocity  about 123
-                       the Z axis
-
-
+tBodyAcc-mean()-X (Description: Mean acceleration of body in the X direction from column 1)
+tBodyAcc-mean()-Y (Description: Mean acceleration of body in the Y direction from column 2)
+tBodyAcc-mean()-Z (Description: Mean acceleration of body in the Z direction from column 3)
+tGravityAcc-mean()-X (Description: Mean acceleration from gravity in the X direction from column 41)
+tGravityAcc-mean()-Y (Description: Mean acceleration from gravity in the Y direction from column 42)
+tGravityAcc-mean()-Z (Description: Mean acceleration from gravity in the Z direction from column 43)
+tBodyAccJerk-mean()-X (Description:Mean Jerk of Body in the X direction from column 81)
+tBodyAccJerk-mean()-Y (Description:Mean Jerk of Body in the Y direction from column 82)
+tBodyAccJerk-mean()-Z (Description:Mean Jerk of Body in the Z direction from column 83)
+tBodyGyro-mean()-X  (Description: Mean Gyroscopic velocity about the X axis from column 121)
+tBodyGyro-mean()-Y  (Description: Mean Gyroscopic velocity about the Y axis from column 121)
+tBodyGyro-mean()-Z  (Description: Mean Gyroscopic velocity about the Z axis from column 121)
 
 The units of the accelerations are in units of the gravitational
 constant g and the angular velocities are in radians/sec.
- Data was collected at a uniform frequency of  50 Hz. 
+Data was collected at a uniform frequency of  50 Hz. 
 
