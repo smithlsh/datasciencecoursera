@@ -61,7 +61,7 @@ Run<-function(){
 	numChunks<-as.integer(numLines/500)
 	numLinesLeft<-numLines%%500
 	dF_Test<-CreateTableChunk(dir,X.txt,subject.txt,y.txt,numLines)
-        sink("TidyDataTable",append=TRUE)
+        sink("TidyDataTable.txt",append=TRUE)
         print(dF_Test)
 	for (i in (2:numChunks)){
 		numLinesSkip=(i-1)*numChunks*numLines
@@ -92,7 +92,6 @@ Run<-function(){
 	dF_Train<-rbind(dF_Train,dF_Last)
 	dF<-rbind(dF_Train,dF_Test)
         dF2<-dF[order(dF$Subjects),]
-#write.table(dF,"TidyDataTable")
         print(dF2) 
         
 }
